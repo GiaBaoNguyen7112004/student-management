@@ -5,7 +5,8 @@ import com.sucodev.lop.payload.request.LopRequest;
 import com.sucodev.lop.repository.LopRepository;
 import com.sucodev.lop.service.LopService;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
+
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
