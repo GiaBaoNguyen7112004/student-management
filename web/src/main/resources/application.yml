@@ -1,0 +1,19 @@
+server:
+  port: 8765
+  servlet:
+    context-path: /api
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/StdManage
+    username: postgres
+    password: giabao123123
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      max-lifetime: 60000
+  jpa:
+    hibernate:
+      ddl-auto: create  # Hoặc create, create-drop, validate
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
